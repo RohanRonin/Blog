@@ -1,11 +1,18 @@
-<div class="container">
+<link rel="stylesheet" href='./Demo.css'>
+<div class="nav">
     <nav>
         <ul>
-            <li><a href="#">Home</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Profile</a></li>
-                </ul>
-            </nav>
+            <div class="nav-con">
+                
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+                <d
+                <div class="profile-icon">
+
+                    <li ><a href="#">Profile</a></li>
+                </div>
+            </ul>
+        </div>
+        </nav>
         </div>
         

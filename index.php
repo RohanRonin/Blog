@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <?php include './Components/__NavBar.php'; ?>
+    / <?php include './Components/__NavBar.php'; ?>
     </header>
     <div class="content">
         <!-- Add content here -->
