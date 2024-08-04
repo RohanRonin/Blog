@@ -1,34 +1,87 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
-    background-color: #4CAF50; /* Adjusted to match the screenshot's background color */
+    padding: 0; 
+    height: 100vh; /* Full viewport height */
+    overflow: hidden; /* Hide scrollbar */
+    background-image: linear-gradient(to left, #334464, #312f36); /* Blue-gray to dark gray gradient */
+    color: #ddd8ce; /* Light beige text color for readability */
+    display: flex;
+    flex-direction: column;
 }
 
 .nav {
-    display: grid;
-    justify-content: center;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    background-color: #3C6E71; 
-    padding: 10px 20px;
+    padding: 25px 40px;
+    box-shadow: 0 4px 10px rgba(10, 10, 60, 0.1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #334464; /* Matching navbar background */
+    z-index: 1000;
+    color: #ddd8ce; /* Light beige text color for readability */
 }
-.nav-con{
+
+.nav-con {
     display: flex;
     gap: 30px;
 }
-.profile-icon {
-    gap: 1000px;
+
+.nav-center {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    gap: 50px;
 }
 
+.nav-center a {
+    color: #ddd8ce; /* Light beige for icon color */
+    font-size: 1em;
+    text-decoration: none;
+    /*
+    background-color: #7234fa; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    Purple button background */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-center a:hover {
+    background-color: #312f36; /* Darker gray on hover */
+    color: #ffffff; /* White on hover */
+}
+
+.nav-right {
+    display: flex;
+    gap: 20px;
+    margin-right: 130px;
+}
+
+.nav-right a {
+    color: #ddd8ce;
+    font-size: 1em;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-right a:hover {
+    color: #7234fa; /* Purple on hover */
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 70px); /* Full height minus navbar height */
+    text-align: center;
+    margin-top: 70px; /* To account for fixed navbar height */
+}
 
 .intro h1 {
     font-size: 2.5em;
-
-}
-.intro{
-    margin-top: 200px ;
-    align-content: center;
-    margin-left: 500px;
 }
 
 .intro p {
@@ -36,23 +89,23 @@ body {
 }
 
 .intro button {
-    background-color: #FF7043; /* Orange button color */
-    color: #ffffff;
+    background-color: #7234fa; /* Purple button color */
+    color: #ddd8ce;
     border: none;
     padding: 15px 30px;
     font-size: 1.2em;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    margin-left: 200px;
+    margin-top: 20px;
 }
 
 .intro button:hover {
-    background-color: #FF5722; /* Darker shade on hover */
+    background-color: #312f36; /* Darker gray shade on hover */
 }
 
 footer {
-    background-color: #3C6E71;
-    color: #ffffff;
+    background-color: #222222; /* Dark gray background */
+    color: #ddd8ce;
     text-align: center;
     padding: 10px 0;
     position: fixed;

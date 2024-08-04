@@ -1,18 +1,13 @@
 <link rel="stylesheet" href='./Demo.css'>
-<div class="nav">
-    <nav>
-        <ul>
-            <div class="nav-con">
-                
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact</a></li>
-                <d
-                <div class="profile-icon">
-
-                    <li ><a href="#">Profile</a></li>
-                </div>
-            </ul>
+<nav class="nav">
+        <div class="nav-center">
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
         </div>
+        <div class="nav-right">
+            <a href="#"><i class="fas fa-user"></i> Login</a>
+        </div>
+    </nav>
         </nav>
         </div>
         
